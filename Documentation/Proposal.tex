@@ -1,97 +1,35 @@
-\documentclass[12pt,a4paper]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[ngerman]{babel}
-\usepackage{graphicx}
-\usepackage{hyperref}
-\usepackage{fancyhdr}
-\usepackage{geometry}
+\documentclass[12pt,a4paper]{article} 
 \usepackage{helvet}
-\usepackage{setspace}
-\usepackage{sansmath}
-\usepackage{listings}
-\usepackage{xparse}
-\usepackage{caption}
-\usepackage{xcolor}
-\usepackage[backend=biber,style=apa]{biblatex}
-\usepackage{csquotes}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
 \usepackage{float}
-\usepackage{pgfplotstable}
-\usepackage{booktabs}
-\usepackage{wrapfig}
-\usepackage[acronym]{glossaries}
-\usepackage{pgf-umlcd}
-\usepackage{tikz}
-\usepackage{subcaption}
+\usepackage{setspace}
 
-\usetikzlibrary{trees}
-
-\pgfplotsset{compat=1.18}
-
-\definecolor{codegreen}{rgb}{0,0.6,0}
-\definecolor{codegray}{rgb}{0.5,0.5,0.5}
-\definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
-
-\lstdefinestyle{codestyle}{
-    backgroundcolor=\color{backcolour},   
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{magenta},
-    numberstyle=\tiny\color{codegray},
-    stringstyle=\color{codepurple},
-    basicstyle=\ttfamily\footnotesize,
-    breakatwhitespace=false,         
-    breaklines=true,                 
-    captionpos=b,                    
-    keepspaces=true,                 
-    numbers=left,                    
-    numbersep=5pt,                  
-    showspaces=false,                
-    showstringspaces=false,
-    showtabs=false,                  
-    tabsize=2
-}
-
-\lstdefinestyle{codeinlinestyle}{
-    backgroundcolor=\color{backcolour},   
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{magenta},
-    numberstyle=\tiny\color{codegray},
-    stringstyle=\color{codepurple},
-    basicstyle=\ttfamily,
-    breakatwhitespace=false,         
-    breaklines=true,                 
-    captionpos=b,                    
-    keepspaces=true,                 
-    showspaces=false,                
-    showstringspaces=false,
-    showtabs=false,                  
-    tabsize=2,
-    frame=single,
-    rulecolor=\color{black}
-}
-
-% Page margins
-\geometry{
-  left=25mm,
-  right=25mm,
-  top=30mm,
-  bottom=30mm,
-}
-
-% Set default font to Helvetica (similar to Arial)
-\renewcommand{\familydefault}{\sfdefault}
-\renewcommand{\lstlistingname}{Code Snippet}
-% Set 1.5 line spacing
-\onehalfspacing
+% Page margins 
+\geometry{ left=25mm, right=25mm, top=30mm, bottom=30mm, }
 
 \begin{document}
-
-% Table of Contents
-\vspace*{-2.5cm}
-\begin{figure}[H]%
-	\raggedleft
-	\includegraphics[height=1.5cm]{figures/RWU_Logo.png}\hfill % University logo
-\end{figure}
-
-
+	
+	% Set default font to Helvetica 
+	\renewcommand{\familydefault}{\sfdefault}
+	\normalfont
+	% Set 1.5 line spacing 
+	\onehalfspacing
+	
+	% Table of Contents 
+	\vspace*{-2.5cm} 
+	\begin{figure}[H]% 
+		\raggedleft \includegraphics[height=1.5cm]{figures/RWU_Logo.png}
+		\hfill % University logo 
+		\end{figure}
+	
+	{\LARGE\textbf{Proposal Informatikseminar}}\\
+	\section{Mein Vorhaben}
+	\begin{enumerate}
+		\item{Wie wird KI in der Luftfahrt eingesetzt?}
+	\end{enumerate}
+	\section{Bestehende Arbeiten}
+	
 \end{document}
